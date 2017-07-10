@@ -13,6 +13,11 @@ public class Userdetails {
     private int id;
     private String name;
 
+    public Userdetails() {
+    }
+    
+    
+
     public Userdetails(String name) {
         this.name = name;
     }

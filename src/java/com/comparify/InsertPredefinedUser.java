@@ -41,6 +41,7 @@ public class InsertPredefinedUser extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Servlet InsertPredefinedUser at " + request.getContextPath() + "</h1>");
+            out.println("<h2>1 user is " + d.getUser() + "</h2>");
             out.println("</body>");
             out.println("</html>");
         }
