@@ -33,6 +33,7 @@ public class InsertPredefinedUser extends HttpServlet {
         try (PrintWriter out = response.getWriter()) {
             Data d=new Data();
             d.addUser();
+            d.getVendorCustomer();
             /* TODO output your page here. You may use following sample code. */
             out.println("<!DOCTYPE html>");
             out.println("<html>");
